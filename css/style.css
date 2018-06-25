@@ -1,0 +1,153 @@
+body{
+    background: url(../images/bg.jpg)
+        no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Playball', cursive;
+
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 0.8em;
+   
+}
+
+
+.navbar-wrapper > .container{
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+.navbar-inverse {
+    background-color: #404040;
+    opacity: 0.6;
+    border-color: skyblue;
+}
+
+.navbar-wrapper .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+    opacity: 50%;
+}
+
+a .lco{
+    margin-top: -8px;
+    font-size: 0.8em;
+}
+
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+
+.carousel .item{
+    height: 500px;
+    
+}
+
+
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+h1{
+    font-size: 3em;
+    color: firebrick;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    text-shadow: 1px 1px 2px #000;
+}
+
+
+.code{
+    opacity: 0.9;
+    background:grey;
+}
+
+hr{
+    color: aquamarine;
+}
+
+
+h2{
+    font-size: 2em;
+    color:  #F04903;
+    text-align: justify;
+    font-family: 'Playball', cursive;
+    text-shadow: 1px 1px 2px #000;
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+
+.red .active a,
+.red .active a:hover {
+    background-color:  #64D448 !important;
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px #ffa;
+    font-size: 1.2em;
+}
+
+samp{
+    font-family: 'consolas',cursive;
+    font-weight: bold !important;
+}
+
+ul,li{
+
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: black;
+}
+
+i{
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+#myBtn{
+    font-size: 2em;
+    color: red;
+}
+
+.mickey{
+    margin-left: -10px;
+    font-size: 1em;
+    color: antiquewhite;
+    
+}
+
+#pcol{
+    color: wheat;
+    margin: 0px auto;
+    color: wheat;
+    margin-top: -30px;
+    padding-top: 78px;
+}
+#big{
+    font-size: 3em;
+}

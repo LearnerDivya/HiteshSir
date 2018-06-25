@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" charset="UTF-8" content="C code, Java code for Palindrome program, Fibonacci series, factorial number, bubble sort, find third largest number in an array" width="device-width" initial-scale="1.0">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pushybtn.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <title>Learn Code Online</title>
+        <link rel="icon" href="images/lco.png" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Cookie" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="images/parallax.js"></script>
+</head>
+
+<body>
+   <!--  Navigation bar starts here-->
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://learncodeonline.in" target="_blank"><span>
+          <img src="images/lcosm.png" class="lco"></span> LearnCodeOnline</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#"><i class="fas fa-question"></i> About</a></li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i> Locations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">California</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Jaipur</a></li>
+            <li><a href="#">Kolkata</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Upcoming Gigs</li>
+            <li><a href="#">Bali</a></li>
+            <li><a href="#">Brazil</a></li>
+            <li><a href="#">Japan</a></li>
+            <li><a href="#">Switzerland</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://courses.learncodeonline.in/learn/login?path=learn&state=12" target="_blank"><i class="fa fa-user-plus" aria-hidden="true"></i> Signup</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        </div>
+    </div>
+<!--  Navigation bar ends here-->
+   
+   
+    <!--  Caraousel starts here-->
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/apple.jpg" alt="First Slider">
+        <div class="container">
+            <div class="carousel-caption">
+                <h1> Work Harder!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione?</p>
+                <p><button class="btn btn--md btn--blue" href="#">Learn More</button></p>
+            </div>
+        </div>
+      
+      
+      
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slider2.jpg" alt="Second Slider">
+      <div class="container">
+            <div class="carousel-caption">
+                <h1>Winners don't Quit! :)</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione?</p>
+                <p><a class="btn btn--md btn--green" href="#">Learn More</a></p>
+            </div>
+        </div>
+      <div class="carousel-caption">
+         
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="images/slider3.jpg" alt="Third Slider">
+      <div class="container">
+            <div class="carousel-caption">
+                <h1>Dont Worry be Happy! :)</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione?</p>
+                <p><a class="btn btn--md btn--red" href="#">Learn More</a></p>
+            </div>
+        </div>
+       <div class="carousel-caption">
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+    <!--Carousel ends here-->
+    
+<!--    Palindrome section starts here-->
+
+   <div class="pal" data-parallax="scroll" data-image-src="images/codeEdit.jpg" >
+       <div class="container ">
+             <h2 class="content-heading">Palindrome Number Program</h2>
+
+        <p>Numbers that read the same backwards and forwards are palindrome no.s.<br>
+        For eg. : The number "12321" is a Palindromic Number as its reverse is also "12321"
+        </p>
+            <ul>
+                <li>any single digit no. lets say "5" is also a Palindromic Number
+                </li>
+                
+                <li> But "1234" is NOT, because its reverse is "4321" (not the same)
+                </li>
+                
+                <li> "MADAM" is an eg. of Palindrome String
+                </li>
+            </ul>
+    <div class="container">
+        <ul class="nav nav-pills nav-justified red">
+          <li class="active"><a href="#palC" data-toggle="tab">C Code</a></li>
+          <li><a href="#palJava" data-toggle="tab">Java Code</a></li>
+        </ul>
+            <div class="tab-content code">
+                <div class="tab-pane fade in active" id="palC">
+                    <pre>
+                    <code>
+                    #include &lt;stdio.h&gt;
+                    int main() {
+                    int n, reverse = 0, t;
+                    printf("Enter a number\n");
+                    scanf("%d", &n);
+                    t = n;
+                    while (t != 0) {
+                    reverse = reverse * 10;
+                    reverse = reverse + t%10;
+                    t = t/10;
+                    }
+                    if (n == reverse)
+                    printf("%d is a palindrome number.\n", n);
+                    else
+                    printf("%d isn't a palindrome number.\n", n);
+                    return 0;
+                    }
+                    </code>
+                    </pre>
+                   <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp id="output">121 is a palindrome number.</samp>
+                </div>
+                </div>
+            <div class="tab-pane fade in" id="palJava">
+                <pre>
+                    <code class="java">
+                    public class Palindrome {
+                    public static void main(String[] args) {
+                    int num = 121, reversedInteger = 0, remainder, originalInteger;
+                    originalInteger = num; 
+                    while( num != 0 ) {
+                    remainder = num % 10;
+                    reversedInteger = reversedInteger * 10 + remainder;
+                    num  /= 10;
+                    }        
+                    if (originalInteger == reversedInteger)
+                    System.out.println(originalInteger + " is a palindrome.");
+                    else
+                    System.out.println(originalInteger + " is not a palindrome.");
+                     }
+                    }
+
+
+                    </code>
+                </pre>
+                    <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp>121 is a palindrome number.</samp>
+                </div>
+            </div>
+        </div>
+     </div>
+        </div>
+    </div>
+
+<!--        Palindrome section ends here-->
+
+<hr class="divider op">
+
+    <!--Fibonacci section goes here-->
+    
+     <div class="fib" data-parallax="scroll" data-image-src="images/sir2.jpg" >
+       <div class="container">
+             <h2>Fibonacci Series Program</h2>
+<p>
+The Fibonacci sequence is a series where the next term is the sum of pervious two terms.<br> 
+The first two terms of the Fibonacci sequence is 0 followed by 1.
+The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
+</p>
+    <div class="container">
+        <ul class="nav nav-pills nav-justified red">
+          <li class="active"><a href="#fibC" data-toggle="tab">C Code</a></li>
+          <li><a href="#fibJava" data-toggle="tab">Java Code</a></li>
+        </ul>
+        <div class="tab-content code">
+            <div class="tab-pane fade in active" id="fibC">
+                <pre>
+                <code>
+                    #include &lt;stdio.h&gt;
+                    //Fibonacci Series using Recursion
+                    int fib(int n)
+                    {
+                       if (n &lt;= 1)
+                          return n;
+                       return fib(n-1) + fib(n-2);
+                    }
+
+                    int main ()
+                    {
+                      int n = 9;
+                      printf("%d", fib(n));
+                      getchar();
+                      return 0;
+                    }
+                </code>
+                </pre>
+                    <div>
+                        <p>When you run the program, the output will be:</p>
+                        <samp>34</samp>
+                    </div>
+            </div>
+            
+            <div class="tab-pane fade in" id="fibJava">
+                <pre>
+                <code>
+                    //Fibonacci Series using Recursion
+                    class fibonacci
+                    {
+                        static int fib(int n)
+                        {
+                        if (n &lt;= 1)
+                           return n;
+                        return fib(n-1) + fib(n-2);
+                        }
+
+                        public static void main (String args[])
+                        {
+                        int n = 9;
+                        System.out.println(fib(n));
+                        }
+                    }
+                </code>
+                </pre>
+                   <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp>34</samp>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+    </div>
+        </div>
+        
+    
+    
+<!--    Fibonacci section ends here-->
+<hr class="divider">
+
+    <!-- Factorial section goes here-->
+    
+     <div class="fac" data-parallax="scroll" data-image-src="images/sir1.jpg" >
+       <div class="container">
+        <h2>Factorial Number Program</h2>
+            <p>Factorial of a non-negative integer, is multiplication of all integers smaller than or equal to n.<br>
+            For example factorial of 6 is 6*5*4*3*2*1 which is 720.<br>
+            The factorial of a negative number doesn't exist. And, the factorial of 0 is 1, 0! = 1
+            </p>
+    <div class="container">
+        <ul class="nav nav-pills nav-justified red">
+          <li class="active"><a href="#facC" data-toggle="tab">C Code</a></li>
+          <li><a href="#facJava" data-toggle="tab">Java Code</a></li>
+        </ul>
+        <div class="tab-content code">
+            <div class="tab-pane fade in active" id="facC">
+                <pre>
+                <code>
+                    #include &lt;stdio.h&gt;
+                    unsigned int factorial(unsigned int n)
+                    {
+                        if (n == 0)
+                          return 1;
+                        return n*factorial(n-1);
+                    }
+                    int main()
+                    {
+                        int num = 5;
+                        printf("Factorial of %d is %d", num, factorial(num));
+                        return 0;
+                    }
+                    </code>
+                    </pre>
+                    <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp id="output">Factorial of 5 is 120</samp>
+                    </div>
+            </div>
+            
+            <div class="tab-pane fade in" id="facJava">
+                <pre>
+                <code>
+                    class Fac {
+
+                    static int factorial(int n) {
+                            if (n == 0)
+                            return 1;
+                            return n*factorial(n-1);
+                    }
+
+                    public static void main(String[] args) {
+                            int num = 5;
+                            System.out.println("Factorial of "+ num + " is " + factorial(5));
+                        }
+                    }
+                    </code>
+                    </pre>
+                    <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp id="output">Factorial of 5 is 120</samp>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!-- Factorial section ends here-->
+   
+      <hr class="divider">
+      
+        <!-- Bubble Sort section goes here-->
+    
+     <div class="sort" data-parallax="scroll" data-image-src="images/sir4.jpg" >
+       <div class="container">
+            <h2>Bubble Sort Program</h2>
+                <p>Following are the steps involved in bubble sort(for sorting a given array in ascending order):<br><br>
+
+#Step1: Starting with the first element(index = 0), compare the current element with the next element of the array.<br>
+#Step2: If the current element is greater than the next element of the array, swap them.<br>
+#Step3: If the current element is less than the next element, move to the next element.<br>
+#Step4: Repeat  #Step1.
+                </p>
+        
+    <div class="container">
+        <ul class="nav nav-pills nav-justified red">
+          <li class="active"><a href="#sortC" data-toggle="tab">C Code</a></li>
+          <li><a href="#sortJava" data-toggle="tab">Java Code</a></li>
+        </ul>
+        <div class="tab-content code">
+            <div class="tab-pane fade in active" id="sortC">
+               <pre>
+                <code>
+                    #include &lt;stdio.h&gt;
+
+                    void bubbleSort(int arr[], int n)
+                    {
+                        int i, j, temp;
+                        for(i = 0; i &lt; n; i++)
+                        {
+                            for(j = 0; j &lt;(n-i-1); j++)
+                            {
+                                // introducing a flag to monitor swapping
+                                int flag = 0;
+                                if( arr[j] > arr[j+1])
+                                {
+                                    // swap the elements
+                                    temp = arr[j];
+                                    arr[j] = arr[j+1];
+                                    arr[j+1] = temp;
+                                    // if swapping happens update flag to 1
+                                    flag = 1;
+                                } 
+                            }
+                            // if value of flag is zero after all the iterations of inner loop
+                            // then break out
+                            if(!flag)
+                            {
+                                break;
+                            }
+                        }   
+                        // print the sorted array
+                        printf("Sorted Array: ");
+                        for(i = 0; i &lt; n; i++)
+                        {
+                            printf("%d  ", arr[i]);
+                        }
+                    }
+                    int main()
+                    {
+                        int arr[100], i, n, step, temp;
+                        // ask user for number of elements to be sorted
+                        printf("Enter elements to be sorted: ");
+                        scanf("%d", &n);   
+                        // call the function bubbleSort
+                        bubbleSort(arr, n);
+                        return 0;
+                    }
+                    </code>
+                    </pre>
+                    <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp>Enter elements to be sorted: 9 3 0 1<br>
+                    Sorted Array: 0 1 3 9 </samp>
+                    </div>
+            </div>
+                <div class="tab-pane fade in" id="sortJava">
+                    <pre>
+                    <code>
+                    class BubbleSort
+
+                    {
+                        void bubbleSort(int arr[])
+                        {
+
+                            int n = arr.length;
+                            for (int i = 0; i &lt; n-1; i++)
+                                for (int j = 0; j &lt; n-i-1; j++)
+                                    if (arr[j] > arr[j+1])
+                                    {
+                                        // swap temp and arr[i]
+
+                                        int temp = arr[j];
+                                        arr[j] = arr[j+1];
+                                        arr[j+1] = temp;
+                                    }
+
+                        }
+
+
+                        /* Prints the array */
+
+                        void printArray(int arr[])
+                        {
+                            int n = arr.length;
+                            for (int i=0; i&lt;n; ++i)
+                                System.out.print(arr[i] + " ");
+                            System.out.println();
+                        }
+
+
+                        // Driver method to test above
+
+                            public static void main(String args[])
+                        {
+                            BubbleSort ob = new BubbleSort();
+                            int arr[] = {64, 34, 25, 12, 22, 11, 90};
+                            ob.bubbleSort(arr);
+                            System.out.println("Sorted array");
+                            ob.printArray(arr);
+                        }
+
+                    }
+
+                    </code>
+                    </pre>
+                    <div>
+                    <p>When you run the program, the output will be:</p>
+                    <samp>Enter elements to be sorted: 9 3 0 1<br>
+                    Sorted Array: 0 1 3 9 </samp>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bubble Sort section ends here-->
+   <hr class="divider">
+       <!-- 3rd Largest section goes here-->
+    
+     <div class="3rdlarge" data-parallax="scroll" data-image-src="images/sir5.jpg" >
+       <div class="container">
+             <h2>Finding 3rd Largest number in array Program</h2>
+        <p>Simplest way to solve this question is to first iterate through the array and find first maximum.<br>
+        Store this first maximum as well as its index.<br>
+        Now traverse the whole array finding the second max with the changed condition. Finally traverse the array third time and find the third largest element.
+        </p>
+    <div class="container">
+        <ul class="nav nav-pills nav-justified red">
+          <li class="active"><a href="#3rdlargeC" data-toggle="tab">C Code</a></li>
+          <li><a href="#3rdlargeJava" data-toggle="tab">Java Code</a></li>
+        </ul>
+        <div class="tab-content code">
+            <div class="tab-pane fade in active" id="3rdlargeC">
+                <pre>
+                <code>
+                #include &lt;stdio.h&gt;
+
+                void thirdLargest(int arr[], int arr_size)
+                {
+                    /* There should be atleast three elements */
+                    if (arr_size &lt; 3)
+                    {
+                        printf(" Invalid Input ");
+                        return;
+                    }
+
+                    // Find first largest element
+                    int first = arr[0];
+                    for (int i = 1; i &lt; arr_size ; i++)
+                        if (arr[i] > first)
+                            first = arr[i];
+
+                    // Find second largest element
+                    int second = INT_MIN;
+                    for (int i = 0; i &lt; arr_size ; i++)
+                        if (arr[i] &gt; second && arr[i] &lt; first)
+                            second = arr[i];
+
+                    // Find third largest element
+                    int third = INT_MIN;
+                    for (int i = 0; i &lt; arr_size ; i++)
+                        if (arr[i] &gt; third && arr[i] &lt; second)
+                            third = arr[i];
+
+                    printf("The third Largest element is %d\n", third);
+                }
+
+                int main()
+                {
+                    int arr[] = {12, 14, 1, 10, 34, 16};
+                    int n = sizeof(arr)/sizeof(arr[0]);
+                    thirdLargest(arr, n);
+                    return 0;
+                }
+
+                    </code>
+                    </pre>
+                        <div>
+                        <p>When you run the program, the output will be:</p>
+                        <samp>The third Largest element is 14</samp>
+                        </div>
+                    </div>
+                <div class="tab-pane fade in" id="3rdlargeJava">
+                    <pre>
+                    <code>
+                    public class ThirdLargestInArray{  
+                    public static int getThirdLargest(int[] a, int total){  
+                    int temp;  
+                    for (int i = 0; i &lt; total; i++)   
+                            {  
+                                for (int j = i + 1; j &lt; total; j++)   
+                                {  
+                                    if (a[i] > a[j])   
+                                    {  
+                                        temp = a[i];  
+                                        a[i] = a[j];  
+                                        a[j] = temp;  
+                                    }  
+                                }  
+                            }  
+                           return a[total-3];  
+                    }  
+                    public static void main(String args[]){  
+                    int arr[]={12, 14, 1, 10, 34, 16};  
+                    System.out.println("Third Largest: "+getThirdLargest(arr,6));  
+                    }
+                    }  
+
+
+                    </code>
+                    </pre>
+                        <div>
+                        <p>When you run the program, the output will be:</p>
+                        <samp>The third Largest element is 14</samp>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+<!-- 3rd Largest section ends here-->
+    
+    <!--   footer section starts here-->
+   
+   <footer>
+      <p class="pull-right" onclick="topFunction()" id="myBtn"><i class="fa fa-chevron-circle-up animated rotateIn" id="big" aria-hidden="true"></i>Move to top
+      </p>
+       
+       <div class="row content">
+	    <div class="col-md-9">
+      <img src="images/lco.png" alt="LCO" class="content-image img-responsive" width="83" height="83">
+        </div>
+        <div class="col-md-3">
+        <p class="mickey">&copy;  Learn Code Online Inc. <a href="#">Terms </a> &middot; <a href="#"> Conditions</a></p></div>
+        </div>
+   </footer>
+    
+<!--Move to top Section JS starts here-->
+	<script>
+	window.onscroll = function() {
+        scrollFunction()
+    };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+	</script>
+<!--Move to top Section ends here-->
+</body>
+</html>
