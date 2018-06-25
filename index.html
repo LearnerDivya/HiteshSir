@@ -175,7 +175,7 @@
                     int main() {
                     int n, reverse = 0, t;
                     printf("Enter a number\n");
-                    scanf("%d", &n);
+                    scanf("%d", &amp;n);
                     t = n;
                     while (t != 0) {
                     reverse = reverse * 10;
@@ -414,7 +414,7 @@ The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
                             {
                                 // introducing a flag to monitor swapping
                                 int flag = 0;
-                                if( arr[j] > arr[j+1])
+                                if( arr[j] &gt; arr[j+1])
                                 {
                                     // swap the elements
                                     temp = arr[j];
@@ -443,7 +443,7 @@ The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
                         int arr[100], i, n, step, temp;
                         // ask user for number of elements to be sorted
                         printf("Enter elements to be sorted: ");
-                        scanf("%d", &n);   
+                        scanf("%d", &amp;n);   
                         // call the function bubbleSort
                         bubbleSort(arr, n);
                         return 0;
@@ -550,7 +550,7 @@ The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
                     // Find first largest element
                     int first = arr[0];
                     for (int i = 1; i &lt; arr_size ; i++)
-                        if (arr[i] > first)
+                        if (arr[i] &gt; first)
                             first = arr[i];
 
                     // Find second largest element
